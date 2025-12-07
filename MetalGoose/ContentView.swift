@@ -30,15 +30,12 @@ struct ContentView: View {
     @State private var interpolatedFPS: Float = 0.0
     @State private var processingTime: Double = 0.0
 
-   // @State private var axGranted: Bool = AXIsProcessTrusted()
-   // @State private var recGranted: Bool = CGPreflightScreenCaptureAccess()
-    @State private var axGranted: Bool = true
-    @State private var recGranted: Bool = true
+    @State private var axGranted: Bool = AXIsProcessTrusted()
+    @State private var recGranted: Bool = CGPreflightScreenCaptureAccess()
 
     @State private var permTimer: Timer?
 
-    //private var permissionsGranted: Bool { axGranted && recGranted }
-    private var permissionsGranted: Bool = true
+    private var permissionsGranted: Bool { axGranted && recGranted }
 
     @State private var targetDisplayID: CGDirectDisplayID?
 
