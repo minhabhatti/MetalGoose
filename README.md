@@ -147,6 +147,22 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 ---
 
+RESOURCES THAT USED FOR THIS PROJECT
+
+https://developer.apple.com/documentation/metal
+https://developer.apple.com/documentation/metalfx/
+https://developer.apple.com/documentation/coreimage
+https://developer.apple.com/documentation/screencapturekit/
+https://developer.apple.com/documentation/appkit
+https://developer.apple.com/documentation/metal/mtltexture
+https://developer.apple.com/documentation/corevideo/cvpixelbuffer
+https://developer.apple.com/documentation/metalperformanceshaders
+https://developer.apple.com/documentation/metal/compute-passes
+https://developer.apple.com/documentation/vision
+https://developer.apple.com/documentation/vision/vngenerateopticalflowrequest
+https://developer.apple.com/documentation/ScreenCaptureKit/capturing-screen-content-in-macos
+
+
 <div align="center">
   <sub>Built with ❤️ using Metal for macOS</sub>
 </div>
