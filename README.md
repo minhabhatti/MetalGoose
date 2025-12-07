@@ -95,19 +95,6 @@ open MetalGoose.xcodeproj
 - macOS 26.0+ SDK
 - Command Line Tools
 
-### Build Steps
-```bash
-# Clone repository
-git clone https://github.com/Stallion77RepoOfficial/MetalGoose.git
-cd MetalGoose
-
-# Build with xcodebuild
-xcodebuild -scheme MetalGoose -configuration Release build
-
-# Or open in Xcode
-open MetalGoose.xcodeproj
-```
-
 ## Architecture
 
 ```
